@@ -1,4 +1,4 @@
-package ru.fizteh.fivt.students.vladislav_korzun.JUnit;
+package ru.fizteh.fivt.students.vladislav_korzun.Storeable;
 
 import ru.fizteh.fivt.storage.structured.Table;
 import ru.fizteh.fivt.storage.structured.TableProvider;

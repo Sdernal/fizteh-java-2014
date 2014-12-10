@@ -1,4 +1,4 @@
-package ru.fizteh.fivt.students.vladislav_korzun.JUnit;
+package ru.fizteh.fivt.students.vladislav_korzun.Storeable;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -22,7 +22,7 @@ public class FileManager {
         filemap = new TreeMap<String, String>();
     }
 
-    public void readTable(Path tabledir) {
+    void readTable(Path tabledir) {
         filemap.clear();
         File[] dirs = tabledir.toFile().listFiles();
         for (File dir: dirs) {
